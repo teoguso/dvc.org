@@ -196,7 +196,7 @@ command and does some additional work if the command was successful:
 
 1. DVC transforms all the outputs (`-o` option) into tracked data files (similar
    to using `dvc add` for each of them). As a result, all the actual data
-   contents goes to the <abbr>cache</abbr> directory `.dvc/cache`, and each of
+   content goes to the <abbr>cache</abbr> directory `.dvc/cache`, and each of
    the file names will be added to `.gitignore`.
 
 2. For reproducibility purposes, `dvc run` creates the `Posts.xml.dvc` stage
